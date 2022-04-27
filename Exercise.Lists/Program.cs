@@ -30,13 +30,13 @@ namespace Exercise.Lists
                 new People(2, "Luca", false),
                 new People(3, "Giorgio", true)
             };
-            string data = MockData(pathFile, peoples);
+            string data = MockData(peoples);
             OriginalTextFileProcessor.ComposeFile(pathFile, pathFolder, data);
             OriginalTextFileProcessor.ReadFile(pathFile);
         }
 
         // Create a method to populate MockData
-        static string MockData(string path, List<People> peoples)
+        static string MockData(List<People> peoples)
         {
             char sep = ',';
             string data = "";
