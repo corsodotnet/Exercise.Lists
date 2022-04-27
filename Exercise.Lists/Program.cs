@@ -18,6 +18,7 @@ namespace Exercise.Lists
 
             // use a utility class to create STANDARD METHODS to manager both situation !!
             // USE FILE STATIC FILE PATH !!!
+            // USE FILE STATIC FILE PATH !!!
 
             char s = Path.DirectorySeparatorChar;
             string pathFolder = $"C:{s}Temp";
