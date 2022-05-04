@@ -19,13 +19,7 @@ namespace Exercise.Lists
         }
         private static void PopulateLists(List<Person> people)
         {
-            //people.Add(new Person { FirstName = "Bruno", LastName = "Corey" });
-            //people.Add(new Person { FirstName = "Sue", LastName = "Storm", IsAlive = false });
-            //people.Add(new Person { FirstName = "Greg", LastName = "Olsen" });
-
-
-            // use a utility class to create STANDARD METHODS to manager both situation !!
-            // USE FILE STATIC FILE PATH !!!
+           
         }
 
         // Create a method to populate MockData
